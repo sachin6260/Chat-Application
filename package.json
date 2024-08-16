@@ -4,14 +4,12 @@
     "description": "Real time user interact with chat",
     "main": "server.js",
     "scripts": {
-      "server": "node ./back-end/server.js",
-      "dev": "nodemon ./back-end/server.js",
-      "server-install": "npm install --prefix ./back-end",
-      "client-install": "npm install --prefix ./front-end",
-      "client-build": "npm run build --prefix ./front-end",
+      "server-install": "npm install --prefix ./server",
+      "client-install": "npm install --prefix ./client",
+      "client-build": "npm run build --prefix ./client",
       "postinstall": "npm run server-install && npm run client-install && npm run client-build"
     },
-    "author": "kapil pandey",
+    "author": "Sachin Choudhary",
     "license": "ISC"
   }
    
