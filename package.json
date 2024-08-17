@@ -3,12 +3,12 @@
     "version": "1.0.0",
     "description": "Real time user interact with chat",
     "main": "server.js",
-    "scripts": {
-      "server-install": "npm install --prefix ./server",
-      "client-install": "npm install --prefix ./client",
-      "client-build": "npm run build --prefix ./client",
-      "postinstall": "npm run server-install && npm run client-install && npm run client-build"
-    },
+  "scripts": {
+  "server-install": "npm install --prefix ./server",
+  "client-install": "npm install --prefix ./client",
+  "client-build": "npm run build --prefix ./client",
+  "postinstall": "npm run server-install && npm run client-install && npm run client-build"
+},
     "author": "Sachin Choudhary",
     "license": "ISC"
   }
