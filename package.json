@@ -8,6 +8,7 @@
   "install-client": "npm install --prefix ./client",
   "build-client": "npm run build --prefix ./client",
   "postinstall": "npm run install-server && npm run install-client && npm run build-client"
+  "dev": "npm run dev --prefix ./server"   
 },
     "author": "Sachin Choudhary",
     "license": "ISC"
