@@ -1,17 +1,18 @@
 {
-    "name": "Chat-Application",
-    "version": "1.0.0",
-    "description": "Real time user interact with chat",
-    "main": "server.js",
- "scripts": {
-  "install-server": "npm install --prefix ./server",
-  "install-client": "npm install --prefix ./client",
-  "build-client": "npm run build --prefix ./client",
-  "postinstall": "npm run install-server && npm run install-client && npm run build-client"
-  "dev": "npm run dev --prefix ./server"   
-},
-    "author": "Sachin Choudhary",
-    "license": "ISC"
-  }
+  "name": "Chat-Application",
+  "version": "1.0.0",
+  "description": "Real time user interact with chat",
+  "main": "server.js",
+  "scripts": {
+    "install-server": "npm install --prefix ./server",
+    "install-client": "npm install --prefix ./client",
+    "build-client": "npm run build --prefix ./client",
+    "postinstall": "npm run install-server && npm run install-client && npm run build-client",
+    "dev": "npm run dev --prefix ./server"
+  },
+  "author": "Sachin Choudhary",
+  "license": "ISC"
+}
+
    
 
